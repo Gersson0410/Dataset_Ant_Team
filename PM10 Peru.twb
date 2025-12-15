@@ -1,0 +1,1277 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0818.1050                               -->
+<workbook original-version='18.1' source-build='2025.2.2 (20252.25.0818.1050)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='OEFA_EAS_PM10_segmented_procesado' inline='true' name='federated.1fmbyof0pjr4y614jhrgh1qkhtep' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='OEFA_EAS_PM10_segmented_procesado' name='textscan.1uu3zny0i0nj7r1dmyojh070vx75'>
+            <connection class='textscan' directory='C:/Users/Space/Downloads' filename='OEFA_EAS_PM10_segmented_procesado.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1uu3zny0i0nj7r1dmyojh070vx75' name='OEFA_EAS_PM10_segmented_procesado.csv' table='[OEFA_EAS_PM10_segmented_procesado#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_419' separator=';'>
+            <column datatype='real' name='Unnamed: 0' ordinal='0' />
+            <column datatype='string' name='Número de informe' ordinal='1' />
+            <column datatype='string' name='Nombre de la Evaluación' ordinal='2' />
+            <column datatype='string' name='Etapa' ordinal='3' />
+            <column datatype='string' name='Componente ambiental' ordinal='4' />
+            <column datatype='string' name='Procedencia de la Muestra' ordinal='5' />
+            <column datatype='string' name='Procedencia Especifica de la Muestra' ordinal='6' />
+            <column datatype='string' name='Nombre del punto' ordinal='7' />
+            <column datatype='real' name='Este' ordinal='8' />
+            <column datatype='real' name='Norte' ordinal='9' />
+            <column datatype='real' name='Altitud' ordinal='10' />
+            <column datatype='real' name='Zona' ordinal='11' />
+            <column datatype='string' name='Datum' ordinal='12' />
+            <column datatype='string' name='Descripción de ubicación' ordinal='13' />
+            <column datatype='string' name='Tipo de muestra' ordinal='14' />
+            <column datatype='string' name='Tipo de análisis' ordinal='15' />
+            <column datatype='string' name='Periodo' ordinal='16' />
+            <column datatype='date' name='Fecha inicio' ordinal='17' />
+            <column datatype='datetime' name='Hora inicio' ordinal='18' />
+            <column datatype='string' name='Fecha fin' ordinal='19' />
+            <column datatype='string' name='Hora fin' ordinal='20' />
+            <column datatype='real' name='Valor' ordinal='21' />
+            <column datatype='string' name='Parámetro' ordinal='22' />
+            <column datatype='string' name='Unidad de medida' ordinal='23' />
+            <column datatype='datetime' name='Hora_original' ordinal='24' />
+            <column datatype='real' name='Latitud' ordinal='25' />
+            <column datatype='real' name='Longitud' ordinal='26' />
+            <column datatype='string' name='Departamento' ordinal='27' />
+            <column datatype='integer' name='UBIGEO' ordinal='28' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_419&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Número de informe</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Número de informe]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Número de informe</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nombre de la Evaluación</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nombre de la Evaluación]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Nombre de la Evaluación</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Etapa</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Etapa]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Etapa</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Componente ambiental</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Componente ambiental]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Componente ambiental</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Procedencia de la Muestra</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Procedencia de la Muestra]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Procedencia de la Muestra</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Procedencia Especifica de la Muestra</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Procedencia Especifica de la Muestra]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Procedencia Especifica de la Muestra</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nombre del punto</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nombre del punto]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Nombre del punto</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Este</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Este]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Este</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norte</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norte]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Norte</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Altitud</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Altitud]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Altitud</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zona</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Zona]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Zona</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Datum</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Datum]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Datum</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Descripción de ubicación</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Descripción de ubicación]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Descripción de ubicación</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tipo de muestra</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tipo de muestra]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Tipo de muestra</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tipo de análisis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tipo de análisis]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Tipo de análisis</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Periodo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Periodo]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Periodo</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha inicio</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Fecha inicio]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Fecha inicio</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hora inicio</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Hora inicio]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Hora inicio</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha fin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fecha fin]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Fecha fin</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hora fin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Hora fin]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Hora fin</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Valor</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Valor]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Valor</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parámetro</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Parámetro]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Parámetro</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unidad de medida</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unidad de medida]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Unidad de medida</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hora_original</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Hora_original]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Hora_original</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitud</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitud]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Latitud</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitud</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitud]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Longitud</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Departamento</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Departamento]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>Departamento</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UBIGEO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UBIGEO]</local-name>
+            <parent-name>[OEFA_EAS_PM10_segmented_procesado.csv]</parent-name>
+            <remote-alias>UBIGEO</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Departamento]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='%null%' value='&quot;Pasco&quot;' />
+        </semantic-values>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Hora inicio]' role='dimension' type='ordinal' />
+      <column caption='Hora original' datatype='datetime' name='[Hora_original]' role='dimension' type='ordinal' />
+      <column caption='Ubigeo' datatype='integer' name='[UBIGEO]' role='measure' type='quantitative' />
+      <column caption='OEFA_EAS_PM10_segmented_procesado.csv' datatype='table' name='[__tableau_internal_object_id__].[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/Space/AppData/Local/Temp/TableauTemp/#TableauTemp_11vhw3g02rb8ad13s0ufe0ltngaf.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/15/2025 03:04:04 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 0</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unnamed: 0]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 0</remote-alias>
+              <ordinal>0</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>643734</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Número de informe</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Número de informe]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Número de informe</remote-alias>
+              <ordinal>1</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>176</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nombre de la Evaluación</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Nombre de la Evaluación]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nombre de la Evaluación</remote-alias>
+              <ordinal>2</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Etapa</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Etapa]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Etapa</remote-alias>
+              <ordinal>3</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Componente ambiental</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Componente ambiental]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Componente ambiental</remote-alias>
+              <ordinal>4</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Procedencia de la Muestra</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Procedencia de la Muestra]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Procedencia de la Muestra</remote-alias>
+              <ordinal>5</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Procedencia Especifica de la Muestra</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Procedencia Especifica de la Muestra]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Procedencia Especifica de la Muestra</remote-alias>
+              <ordinal>6</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nombre del punto</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Nombre del punto]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nombre del punto</remote-alias>
+              <ordinal>7</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Este</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Este]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Este</remote-alias>
+              <ordinal>8</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Norte</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Norte]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Norte</remote-alias>
+              <ordinal>9</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Altitud</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Altitud]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Altitud</remote-alias>
+              <ordinal>10</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>63</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Zona</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Zona]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Zona</remote-alias>
+              <ordinal>11</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Datum</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Datum]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Datum</remote-alias>
+              <ordinal>12</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Descripción de ubicación</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Descripción de ubicación]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Descripción de ubicación</remote-alias>
+              <ordinal>13</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tipo de muestra</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Tipo de muestra]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tipo de muestra</remote-alias>
+              <ordinal>14</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tipo de análisis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Tipo de análisis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tipo de análisis</remote-alias>
+              <ordinal>15</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Periodo</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Periodo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Periodo</remote-alias>
+              <ordinal>16</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fecha inicio</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha inicio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha inicio</remote-alias>
+              <ordinal>17</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>6402</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hora inicio</remote-name>
+              <remote-type>134</remote-type>
+              <local-name>[Hora inicio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hora inicio</remote-alias>
+              <ordinal>18</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Hour</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fecha fin</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Fecha fin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha fin</remote-alias>
+              <ordinal>19</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hora fin</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Hora fin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hora fin</remote-alias>
+              <ordinal>20</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Valor</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Valor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Valor</remote-alias>
+              <ordinal>21</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>781</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Parámetro</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Parámetro]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Parámetro</remote-alias>
+              <ordinal>22</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unidad de medida</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unidad de medida]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unidad de medida</remote-alias>
+              <ordinal>23</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hora_original</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Hora_original]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hora_original</remote-alias>
+              <ordinal>24</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latitud</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Latitud]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latitud</remote-alias>
+              <ordinal>25</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longitud</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Longitud]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longitud</remote-alias>
+              <ordinal>26</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>82</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Departamento</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Departamento]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Departamento</remote-alias>
+              <ordinal>27</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>UBIGEO</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[UBIGEO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>UBIGEO</remote-alias>
+              <ordinal>28</ordinal>
+              <family>OEFA_EAS_PM10_segmented_procesado.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Perú&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='OEFA_EAS_PM10_segmented_procesado.csv' id='OEFA_EAS_PM10_segmented_procesado.csv_725167FFF8C94DA7A0274CCFE01CF28E'>
+            <properties context=''>
+              <relation connection='textscan.1uu3zny0i0nj7r1dmyojh070vx75' name='OEFA_EAS_PM10_segmented_procesado.csv' table='[OEFA_EAS_PM10_segmented_procesado#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_419' separator=';'>
+                  <column datatype='real' name='Unnamed: 0' ordinal='0' />
+                  <column datatype='string' name='Número de informe' ordinal='1' />
+                  <column datatype='string' name='Nombre de la Evaluación' ordinal='2' />
+                  <column datatype='string' name='Etapa' ordinal='3' />
+                  <column datatype='string' name='Componente ambiental' ordinal='4' />
+                  <column datatype='string' name='Procedencia de la Muestra' ordinal='5' />
+                  <column datatype='string' name='Procedencia Especifica de la Muestra' ordinal='6' />
+                  <column datatype='string' name='Nombre del punto' ordinal='7' />
+                  <column datatype='real' name='Este' ordinal='8' />
+                  <column datatype='real' name='Norte' ordinal='9' />
+                  <column datatype='real' name='Altitud' ordinal='10' />
+                  <column datatype='real' name='Zona' ordinal='11' />
+                  <column datatype='string' name='Datum' ordinal='12' />
+                  <column datatype='string' name='Descripción de ubicación' ordinal='13' />
+                  <column datatype='string' name='Tipo de muestra' ordinal='14' />
+                  <column datatype='string' name='Tipo de análisis' ordinal='15' />
+                  <column datatype='string' name='Periodo' ordinal='16' />
+                  <column datatype='date' name='Fecha inicio' ordinal='17' />
+                  <column datatype='datetime' name='Hora inicio' ordinal='18' />
+                  <column datatype='string' name='Fecha fin' ordinal='19' />
+                  <column datatype='string' name='Hora fin' ordinal='20' />
+                  <column datatype='real' name='Valor' ordinal='21' />
+                  <column datatype='string' name='Parámetro' ordinal='22' />
+                  <column datatype='string' name='Unidad de medida' ordinal='23' />
+                  <column datatype='datetime' name='Hora_original' ordinal='24' />
+                  <column datatype='real' name='Latitud' ordinal='25' />
+                  <column datatype='real' name='Longitud' ordinal='26' />
+                  <column datatype='string' name='Departamento' ordinal='27' />
+                  <column datatype='integer' name='UBIGEO' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='PM10 en el Perú'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='OEFA_EAS_PM10_segmented_procesado' name='federated.1fmbyof0pjr4y614jhrgh1qkhtep' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1fmbyof0pjr4y614jhrgh1qkhtep'>
+            <column datatype='string' name='[Departamento]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='%null%' value='&quot;Pasco&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' name='[Valor]' role='measure' type='quantitative' />
+            <column-instance column='[Valor]' derivation='Avg' name='[avg:Valor:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Departamento]' derivation='None' name='[none:Departamento:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[Longitude (generated)]' field-type='quantitative' max='-6763365.3692274159' min='-9932365.2557949908' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[Latitude (generated)]' field-type='quantitative' max='-376597.13629290101' min='-2094899.2323681745' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[none:Departamento:nk]' />
+              <color column='[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[avg:Valor:qk]' />
+              <geometry column='[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[Latitude (generated)]</rows>
+        <cols>[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{3BD92119-86BD-4526-BFC5-2AB749677407}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='PM10 en el Perú'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.1fmbyof0pjr4y614jhrgh1qkhtep].[avg:Valor:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EB433DF-27D9-4076-B3F6-60A11661C0E2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='PM10 en el Perú' width='192'>
+      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
+      YKYAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
